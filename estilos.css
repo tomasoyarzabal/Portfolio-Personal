@@ -5,6 +5,7 @@
 
 main{
    position: relative;
+
 }
 nav h1{
     text-align: right;
@@ -55,17 +56,18 @@ section a img{
     position: absolute;
     top: 50px;
     width: 180px;
-    margin-left: -400px;
+    left: 20px;
+    border-radius: 10px;
 }
 .Proyectosg{
-    position: absolute;
+    position: relative;
     top: 50px;
-    width: 180px;
-    margin-right: -400px;
+    width: 200px;
+    left: 400px;
 }
 .contacto{
    position: absolute;
-    top: 1800px;
+    top: 1870px;
     left: 550px;
     right: 550px;
     color: aliceblue;
@@ -83,7 +85,7 @@ section a img{
 }
 .sec3{
     border-radius: 90px;
-   height: 450px;
+   height: 550px;
    top: 150px;
 }
 h2{
@@ -131,6 +133,8 @@ video{
     color: antiquewhite;
     background-color: #15002c;
     transition: all 0.3s linear;
+    left: 1%;
+    
 }
 .btn:hover{
     background-color: #371e75;
@@ -149,6 +153,31 @@ footer div a img{
    margin-right: 20px;
    top: 50px;
 }
+.btn{
+    position: relative;
+    top: 10px;
+}
+.card-text{
+    color: black;
+}
+.card{
+    position: absolute;
+    left: 40%;
+    background-image: linear-gradient(to bottom, #15002c, #24114f, #371e75, #4b2b9e, #6039c9);
+    top: 100px;
+    border-radius: 10px;
+    
+}
+.form{
+    position: absolute;
+    top: 50px;
+    left: 35%;
+}
+
+
+
+
+
 
 
 
